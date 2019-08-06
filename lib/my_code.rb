@@ -42,7 +42,7 @@ end
   new = starting_point
   counter = 0
   while counter < source_array.length do
-    new += source_array[i]
+    new += source_array[counter]
     counter += 1
   end
   return new
