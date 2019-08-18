@@ -13,3 +13,7 @@ end
 def map_to_square(array)
   array.map{|n| n ** 2}
 end
+
+def reduce_to_total(array, starting_point)
+  array.reduce{ |total, n| total + n}
+end
